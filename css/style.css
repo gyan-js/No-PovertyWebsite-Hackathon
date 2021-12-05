@@ -3586,3 +3586,42 @@ ul {
   position: absolute;
   z-index: -1;   
 }
+
+.tp-breadcumb-area{
+  background: url(/static/media/img-1.bc501a9f.jpg) no-repeat top/cover;
+  min-height: 350px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.donate-header{
+  margin-left: 50%;
+}
+
+.hello-input{
+  width: 100%;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  height: 40px;
+  background: #202120;
+  border-radius: 2px;
+  border: 1px solid #2e2c2c;
+}
